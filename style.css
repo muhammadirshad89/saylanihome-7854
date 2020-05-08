@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(21, 77, 182);
+    height: 25px;
+}
+.social{
+    position: absolute;
+    top: 5px;
+    bottom: ;
+    left: 70px;
+    right: ;
+    text-decoration: none;
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+.social ul li .fa{
+    color: rgb(245, 243, 241);
+}
+.para{
+    position: absolute;
+    top: 5px;
+    bottom: ;
+    left: 270px;
+    right: ;
+    color: aliceblue;
+}
+.btn{
+    position: absolute;
+    top: 4px;
+    bottom: ;
+    left: ;
+    right: 5px;
+}
+.nav{
+    position: relative;
+    top: 4px;
+    bottom: ;
+    left: 500px;
+    right: ;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    background-color: rgb(64, 30, 255);
+    color: aliceblue;
+    border: 1px solid white;
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+    position: relative;
+    border-radius: 8px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+}
+.nav ul li a:hover{
+    background-color: black;
+    font-size: 20px;
+}
+.nav ul ul{
+    position: absolute;
+    display: none;
+}
+.nav ul li:hover > ul{
+    display: block;
+}
+.image {
+    position: absolute;
+    top: 200px;
+    bottom: ;
+    left: 5px;
+    right: ;
+}
+.intro{
+    position: absolute;
+    top: 600px;
+    bottom: ;
+    left: 400px;
+    right: ;
+}
+.para2{
+    text-align: center;
+    position: absolute;
+    top: 630px;
+    bottom: ;
+    left: 100px;
+    right: ;
+}
+.calc{
+    width: 100%;
+    height: 250px;
+    background-color: royalblue;
+    position: absolute;
+    top: 850px;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.im1{
+    position: relative;
+    top: 55px;
+    bottom: ;
+    left: 150px;
+    right: ;
+}
+.im2{
+    position: relative;
+    top: 10px;
+    bottom: ;
+    left: 400px;
+    right: ;
+}
+.im3{
+    position: relative;
+    top: -30px;
+    bottom: ;
+    left: 600px;
+    right: ;
+}
+.im4{
+    position: relative;
+    top: -80px;
+    bottom: ;
+    left: 820px;
+    right: ;
+}
+.t1{
+    position: relative;
+    top: -60px;
+    bottom: ;
+    left: 120px;
+    right: ;
+}
+.t2{
+    position: relative;
+    top: ;
+    bottom: 95px;
+    left: 390px;
+    right: ;
+}
+.t3{
+    position: relative;
+    top: ;
+    bottom: 125px;
+    left: 590px;
+    right: ;
+}
+.t4{
+    position: relative;
+    top: ;
+    bottom: 160px;
+    left: 790px;
+    right: ;
+}
+.t6, .t8, .t10, .t12{
+    color: rgb(0, 223, 48);
+    font-size: 25px;
+}
+.t5, .t7, .t9, .t11{
+    font-size: 30px;
+}
+.t5{
+    position: relative;
+    top: ;
+    bottom: 170px;
+    left: 90px;
+    right: ;
+}
+.t6{
+    position: relative;
+    top: ;
+    bottom: 170px;
+    left: 120px;
+    right: ;
+}
+.t7{
+    position: relative;
+    top: ;
+    bottom: 230px;
+    left: 370px;
+    right: ;
+}
+.t8{
+    position: relative;
+    top: ;
+    bottom: 230px;
+    left: 378px;
+    right: ;
+}
+.t9{
+    position: relative;
+    top: ;
+    bottom: 290px;
+    left: 580px;
+    right: ;
+}
+.t10{
+    position: relative;
+    top: ;
+    bottom: 290px;
+    left: 580px;
+    right: ;
+}
+.t11{
+    position: relative;
+    top: ;
+    bottom: 350px;
+    left: 770px;
+    right: ;
+}
+.t12{
+    position: relative;
+    top: ;
+    bottom: 350px;
+    left: 780px;
+    right: ;
+}
+.what{
+    position: absolute;
+    top: 1100PX;
+    bottom: ;
+    left: 350px;
+    right: ;
+}
+.onlinesad{
+    position: absolute;
+    top: 1150PX;
+    bottom: ;
+    left: 70px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
+.onltex{
+    font-size: 20px;
+}
+.welfare{
+    position: absolute;
+    top: 1150PX;
+    bottom: ;
+    left: 400px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
+.medical{
+    position: absolute;
+    top: 1150PX;
+    bottom: ;
+    left: 750px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
+.dastarkhan{
+    position: absolute;
+    top: 1350PX;
+    bottom: ;
+    left: 70px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
+.roplant{
+    position: absolute;
+    top: 1350PX;
+    bottom: ;
+    left: 400px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
+.education{
+    position: absolute;
+    top: 1350PX;
+    bottom: ;
+    left: 750px;
+    right: ;
+    background-color: rgb(195, 238, 238);
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 1);
+}
